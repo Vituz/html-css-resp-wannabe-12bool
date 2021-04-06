@@ -50,19 +50,22 @@
         background-color: #F2F2CD;
     }
 
-    #lezioni img, #steps img{
+    #lezioni img, #steps img, #why img{
         height: 180px;
         margin-top: 30px;
       }
       
-      #lezioni h3, #steps h3{
+      #lezioni h3, #steps h3, #why h3{
         font-size: 1.8rem;
       }
       
-      #lezioni p, #steps p{
+      #lezioni p, #steps p, #why img{
         font-size: 1.4rem;
       }
 
+      #why img{
+          margin: 40px 0 20px 0;
+      }
     
 
     /* COLUMNS XS */
