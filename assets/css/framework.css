@@ -11,6 +11,12 @@
     padding: 0;
 }
 
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .container{
     max-width: 1170px;
     margin: 0 auto;
@@ -18,15 +24,38 @@
 
 .row{
     width: 100%;
+    text-align: center;
 }
 
-[class*=".col-"]{
+[class*="col-"]{
     float: left;
 }
 
 /* Da 0 a 767px */
 
 @media screen and (max-width: 767px) {
+
+
+    .bg_green{
+        background-color: #F2F2CD;
+    }
+
+    #lezioni img{
+        height: 180px;
+        margin-top: 30px;
+      }
+      
+      #lezioni h3{
+        font-size: 1.8rem;
+      }
+      
+      #lezioni p{
+        font-size: 1.4rem;
+      }
+
+      #lezioni p:last-child{
+          margin-bottom: 20px;
+      }
 
     /* COLUMNS XS */
     .col-xs-1{
