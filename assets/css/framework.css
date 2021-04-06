@@ -31,6 +31,16 @@
     float: left;
 }
 
+/* UTILITY */
+.mrbot_20{
+    margin-bottom: 20px;
+}
+
+.mrtop_20{
+    padding-top: 20px;
+}
+/* /UTILITY */
+
 /* Da 0 a 767px */
 
 @media screen and (max-width: 767px) {
@@ -40,22 +50,20 @@
         background-color: #F2F2CD;
     }
 
-    #lezioni img{
+    #lezioni img, #steps img{
         height: 180px;
         margin-top: 30px;
       }
       
-      #lezioni h3{
+      #lezioni h3, #steps h3{
         font-size: 1.8rem;
       }
       
-      #lezioni p{
+      #lezioni p, #steps p{
         font-size: 1.4rem;
       }
 
-      #lezioni p:last-child{
-          margin-bottom: 20px;
-      }
+    
 
     /* COLUMNS XS */
     .col-xs-1{
@@ -159,6 +167,10 @@
 
 /* Da 768 a 991px */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+
+    #steps div:last-child{
+        margin-top: 40px;
+    }
 
     /* COLUMNS MD */
     .col-md-1{
